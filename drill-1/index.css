@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+}
+
+header {
+    width: 100vw;
+    height: 200px;
+    background-color: rgb(66, 65, 65);
+}
+
+main {
+    display: inline;
+    position: bottom;
+}
+
+aside {
+    background-color: grey;
+    width: 200px;
+    height: 100vh;
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    z-index: -1;
+    
+}
+
+div {
+    width:100vw;
+    background-color: rgb(62, 62, 62);
+    height: 200px;
+    z-index: -2;
+    position: absolute;
+    right: 200px;
+    bottom: 0px;
+}
+
+.right-side {
+    display: flex;
+    position: absolute;
+    right: 0px;
+}
+

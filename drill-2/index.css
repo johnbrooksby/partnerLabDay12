@@ -1,0 +1,97 @@
+.solid-border {
+    border: 3px solid black;
+    height: 200px;
+    width: 99vw;
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+/* main {
+    display flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} */
+
+.obj {
+    margin: 20px;
+}
+
+.purple {
+    width: 50px;
+    height: 150px;
+    background-color: rgb(129, 33, 219);
+    position: relative; 
+    top: 14px;
+}
+
+.green {
+    width: 500px;
+    height: 175px;
+    background-color: green;
+}
+
+.blue-circle {
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    background-color: lightblue;
+}
+
+.blank {
+    width: 175px;
+    height: 175px;
+}
+
+.dotted-border {
+    border: 3px dotted black;
+    width: 99vw;
+    height: 200px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.shaded-box {
+    background-color: lightgoldenrodyellow;
+    width: 90vw;
+    height: 150px;
+    position: relative;
+    margin: auto;
+    margin-top: 25px;
+    box-shadow: 7px 7px 10px black;
+}
+
+.bottom-box {
+    width: 35vw;
+    height: 250px;
+    border: 1px solid lightgrey;
+    margin-top: 20px;
+    position: fixed;
+    bottom: 200px;
+    left: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 3px lightgrey;
+}
+
+.container-div {
+    width: 10vw;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(0, 0, 98);
+    position: relative;
+    display: flex;
+    font-size: 30pt;
+    flex-wrap: wrap;
+    margin: 0px;
+    font-family: 'IBM Plex Serif', serif;
+}
