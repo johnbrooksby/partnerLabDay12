@@ -8,12 +8,12 @@
     align-items: center;
 }
 
-/* main {
-    display flex;
-    flex-direction: row;
+main {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-} */
+    align-items: space-between;
+}
 
 .obj {
     margin: 20px;
@@ -50,7 +50,8 @@
     width: 99vw;
     height: 200px;
     margin-top: 20px;
-    position: absolute;
+    /* position: absolute; */
+    display: flex;
 }
 
 .shaded-box {
@@ -67,10 +68,11 @@
     width: 35vw;
     height: 250px;
     border: 1px solid lightgrey;
-    margin-top: 20px;
-    position: fixed;
-    bottom: 200px;
-    left: 600px;
+    /* margin-top: 20px; */
+    /* position: fixed;
+    bottom: 20px;
+    left: 500px; */
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
